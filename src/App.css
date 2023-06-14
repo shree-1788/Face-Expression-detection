@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
+}
+.canvas{
+  position:absolute;
+
+}
+
+.navbar{
+  height: 50px;
+  background-color: #4064ac;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 0px 100 px;
+  font-size: 20px;
+}
+
+.newPostCard{
+  height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.addPost{
+  display: flex;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.postForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
